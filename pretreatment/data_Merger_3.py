@@ -23,7 +23,7 @@ class Merger(object):
         
         for i in range(0, count):
             
-            tn = temp_names[i][0:8]
+            tn = temp_names[i][0:9]
             
             needs = text_need_reader.reader(self.output_path + tn + ".csv").read()
             
